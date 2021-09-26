@@ -1,4 +1,4 @@
-class Main {
+class paquete{
   private int identificador;
   private String fechaEntrega;
   private String fechaRecepcion;
@@ -35,22 +35,22 @@ class Main {
   public int getIdentificador(){
     return identificador;
   }
-  public int getFechaE(){
+  public String getFechaE(){
     return fechaEntrega;
   }
-  public int getFechaR(){
+  public String getFechaR(){
     return fechaRecepcion;
   }
   public double getPeso(){
     return peso;
   }
-  public int getDireccion(){
+  public String getDireccion(){
     return direccion;
   }
   public double getCosto(){
     return costo;
   }
-  public int getNombre(){
+  public String getNombre(){
     return nombre;
   }
   public int getDNI(){
